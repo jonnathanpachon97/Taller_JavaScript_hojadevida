@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Referencias Personales</title>
+    <link rel="stylesheet" href="../diseño.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body align="center">
+
+    <div align="center">
+        <h3 id="subtitulo">REFERENCIAS PERSONALES</h3>
+    </div>
+
+    <form align="left">
+        <div>
+            <button type="button" id="idboton">Color de fondo</button>
+        </div><br>
+            <div id="menucolores">
+                <input type="radio" id="fondoazul" name="fav_language" value="azul">
+                <label for="html">AZUL</label><br>
+                <br>
+                <input type="radio" id="fondoverde" name="fav_language" value="verde">
+                <label for="css">VERDE</label><br>
+                <br>
+                <input type="radio" id="fondorojo" name="fav_language" value="rojo">
+                <label for="javascript">ROJO</label><br>
+                <br>
+                <input type="radio" id="fondogris" name="fav_language" value="gris">
+                <label for="javascript">GRIS</label><br>
+            </div><br>
+            <br>
+    <button type="button" onclick="cambiarFondo()" id="estiloboton">APLICAR</button>
+    </form>
+    
+    <div>
+        <img src="../img/gengar.gif" width="250" />
+    </div>
+    <br>
+
+    <div class="acordeon">
+        <div class="bloque">
+            <h2 class="h2">Referencia 1</h2>
+            <div class="contenido">
+                <img src="../img/pikachu1.gif" width="70" />
+                <h4 id="subtitulo2">YEIMY ALEJANDRA PEREZ LOPEZ</h4>
+                <img src="../img/pikachu.gif" width="70" />
+                <p id="perfil">Contador Publico<br>
+                    Cel: 321-936-71-43
+                </p>
+            </div>   
+        </div>
+        <div class="bloque">
+            <h2 class="h2">Referencia 2</h2>
+            <div class="contenido">
+                <img src="../img/pikachu1.gif" width="70" />
+                <h4 id="subtitulo2">JOHAN SEBASTIAN GRACIA ROJAS</h4>
+                <img src="../img/pikachu.gif" width="70" />
+                <p id="perfil">Ingeniero Mecatronico<br>
+                    Cel: 322-960-20-70
+                </p>
+            </div>
+        </div>
+        <div class="bloque">
+            <h2 class="h2">Referencia 3</h2>
+            <div class="contenido">
+                <img src="../img/pikachu1.gif" width="70" />
+                <h4 id="subtitulo2">DUVAN SANTIAGO MEJIA DURAN</h4>
+                <img src="../img/pikachu.gif" width="70" />
+                <p id="perfil">Ingeniero Mecatronico<br>
+                    Cel: 322-211-51-85
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="link">
+        <a href="experiencia laboral.html"> <- Anterior </a>  
+    </div>
+    &nbsp;&nbsp;&nbsp;
+    <div id="link">
+        <a href="referencias familiares.html"> Siguiente -> </a>
+    </div>
+    <script src="/javascript/practica.js"></script>
+</body>
+</html>

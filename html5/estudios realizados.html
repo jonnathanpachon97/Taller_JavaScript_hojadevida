@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Estudios Realizados</title>
+    <link rel="stylesheet" href="../diseño.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body align="center">
+    <div align="center">
+        <h3 id="subtitulo">ESTUDIOS REALIZADOS</h3>
+    </div>
+
+    <form align="left">
+        <div>
+            <button type="button" id="idboton">Color de fondo</button>
+        </div><br>
+            <div id="menucolores">
+                <input type="radio" id="fondoazul" name="fav_language" value="azul">
+                <label for="html">AZUL</label><br>
+                <br>
+                <input type="radio" id="fondoverde" name="fav_language" value="verde">
+                <label for="css">VERDE</label><br>
+                <br>
+                <input type="radio" id="fondorojo" name="fav_language" value="rojo">
+                <label for="javascript">ROJO</label><br>
+                <br>
+                <input type="radio" id="fondogris" name="fav_language" value="gris">
+                <label for="javascript">GRIS</label><br>
+            </div><br>
+            <br>
+    <button type="button" onclick="cambiarFondo()" id="estiloboton">APLICAR</button>
+    </form>
+
+    <div>
+        <img src="../img/gameover.gif" width="400" />
+    </div>
+
+    <div class="acordeon">
+        <div class="bloque">
+            <h2 class="h2">Estudio 1</h2>
+            <div class="contenido">
+                <h4 id="subtitulo2">Bachillerato Académico </h4>
+                <p id="perfil">Instituto de Ciencias Agroindustriales y del Medio Ambiente ICAM - 2014</p>
+            </div>   
+        </div>
+        <div class="bloque">
+            <h2 class="h2">Estudio 2</h2>
+            <div class="contenido">
+                <h4 id="subtitulo2">Ingeniería Mecatrónica</h4>
+                <p id="perfil">Universidad Piloto de Colombia – 2021</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="link">
+        <a href="referencias familiares.html"> <- Anterior </a><br>
+    </div>
+    &nbsp;&nbsp;&nbsp;
+    <div id="link">
+        <a href="../index.html"> Inicio -> </a>
+    </div>
+    <script src="/javascript/practica.js"></script>
+</body>
+</html>
